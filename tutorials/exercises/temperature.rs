@@ -19,6 +19,7 @@ fn main(){
             println!("wrong input");
             return},
     };
+    
     let fahrenheit: String = convert(celcius_num).to_string(); 
     print!("{celcius} °C equals {fahrenheit} °F")
 
